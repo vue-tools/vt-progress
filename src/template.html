@@ -1,0 +1,7 @@
+<div class="ui-progress">
+    <slot class="ui-progress__start" name="start"></slot>
+    <div class="ui-progress__content" :style="{height: barHeight + 'px'}">
+        <div class="ui-progress__thumb" :style="{width: value + '%'}"></div>
+    </div>
+    <slot class="ui-progress__end" name="end"></slot>
+</div>

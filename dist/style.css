@@ -1,0 +1,13 @@
+.ui-progress {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.ui-progress__content {
+    width: 100%;
+    background-color: #e6e6e6;
+}
+.ui-progress__thumb {
+    height: 100%;
+    background-color: #26a2ff;
+}
